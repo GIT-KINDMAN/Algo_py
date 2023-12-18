@@ -19,4 +19,10 @@ while True:
             if q:
                 q.pop()
             elif not q:
+                cnt += 1
+                q.append('{')
 
+    # if line[-1] == '{':
+    #     cnt += 1
+
+    print(f"{TC}. {cnt+len(q)//2}")
