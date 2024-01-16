@@ -1,13 +1,4 @@
-# line = input()
-# bomb = input()
-#
-# while bomb in line:
-#     line.replace(bomb, '')
-#
-# if line:
-#     print(line)
-# else:
-#     print('FRULA')
+# 문자열 접근은 시간 초과. stack을 사용해서 해결.
 
 # line = input()
 # bomb = input()
